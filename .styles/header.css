@@ -1,8 +1,8 @@
 
 header{
     width: 100vw;
-    height: 75px;
-    background-color: #209ee2;
+    height: 7em;
+    background-color: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -10,19 +10,21 @@ header{
 
     div{
         display: flex;
-        gap: 20px;
+        gap: 30px;
+        margin-right: 4em;
     }
     
 }
 
 #logo{
-    width: 100px;
+    width: 10em;
+    margin-left: 3em;
     
     
 }
 
 #whatsapp, #instagram{
-    width: 25px;
+    width: 40px;
     
 }
 

@@ -1,18 +1,27 @@
-section{
-    height: 800px;
-    display: flex;
-    background-image: linear-gradient(to top, #4facfe 30%, #fff 50%);
+#banner {
+    background-image: url(../.midia/sofa.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50em;
 
-    
+    border-radius: 0% 0% 30% 30%;
 }
 
-#logomeio{
-    display: flex;
-    flex-direction: column;
+#conteudo {
+    height: 100%;
+    width: 100%;
+    background-color: #2995f37e;
+    padding-top: 4em;
+    border-radius: 0% 0% 30% 30%;
 
-    img{
-        
-        width: 400px;
+    h1 {
+        font-family: var(--font-global);
+        text-align: center;
+        font-size: 3em;
+        color: #fff;
+        width: 20em;
+        margin: auto;
         
     }
 }
