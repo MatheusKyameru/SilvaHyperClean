@@ -1,24 +1,20 @@
 
 header{
     width: 100vw;
-    height: 7em;
+    height: 7.5em;
     background-color: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-inline: 20px;
+    padding-inline: 3em;
 
-    div{
-        display: flex;
-        gap: 30px;
-        margin-right: 4em;
-    }
+    
     
 }
 
 #logo{
-    width: 10em;
-    margin-left: 3em;
+    width: 11em;
+    
     
     
 }
