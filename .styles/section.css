@@ -286,14 +286,58 @@
     
 }
 
+
+/*--------------------------------------------------faixa de satisfação*----------------------------------------*/
+
+
 #proxima{ 
     height: 80em;
     width: 100%;
 }
 
+
+
 #faixa{
     width: 100%;
     height: 13.875em;
     background-color: #202e0c;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    p{
+        font-family: var(--font-global);
+        font-size: 2.3em;
+        font-weight: 600;
+        color: #ffffffa9;
+        text-shadow: 0px 0px 8px #ffffff88;
+        
+    }
+
+    img{
+            width: 5em;
+            opacity: .7;
+            
+        }
+
+  
+
 
 }
+
+    .fist{
+        border-right:2px solid rgba(255, 255, 255, 0.473) ;
+    }
+
+
+ .avaliacao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    width: 100%;
+    margin: auto;
+    height: 9em;
+   }
+
+   
