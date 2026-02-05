@@ -107,7 +107,7 @@
 
     h1, p{
         text-align: center;
-        font-family: var(--font-visual);
+        font-family: var(--font-global);
         color: #fff;
         
     }
