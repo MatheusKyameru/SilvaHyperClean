@@ -39,17 +39,19 @@
     width: 35em;
     display: flex;
     flex-direction: column;
-    align-items: baseline;
+   
     margin-top: 4em;
     gap: .8em;
+    padding: .5em;
+    border-radius: 20px;
+   
 }
 
 .itens {
 
     display: flex;
     align-items: center;
-    justify-content: center;
-    align-self: center;
+   
     padding: 8px;
     font-family: var(--font-global);
     font-weight: bold;
