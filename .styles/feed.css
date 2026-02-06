@@ -1,0 +1,49 @@
+#feed {
+    width: 100vw;
+    padding: 4em 5em;
+}
+
+#formato-antdps {
+    width: 100%;
+    display: flex;
+    gap: 7em;
+    
+}
+
+#antdps {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(#0f3557, #1f71b9) ;
+    padding: 5em;
+    border-radius: 50px;
+
+    img:nth-child(1), img:nth-child(3){
+        border-radius: 25px;
+        width: 21em;
+    }
+}
+
+#descricao{
+    display: flex;
+    flex-direction: column;
+    
+    
+    width: 100%;
+    gap: 2em;
+
+    h1, p{
+        font-family: var(--font-visual);
+        
+        color: #0f3658;
+        
+    }
+
+    h1{
+        font-size: 3.5em;
+    }
+
+    p{
+        font-size: 1.7rem;
+    }
+}
