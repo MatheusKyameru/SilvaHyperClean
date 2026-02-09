@@ -18,6 +18,8 @@
     <link href="https://fonts.googleapis.com/css2?family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap"
         rel="stylesheet">
 
+    <script src=".scripts/slider.js" defer></script>
+
 </head>
 
 <body>
@@ -36,6 +38,7 @@
         </a>
 
     </header>
+
     <section id="banner">
         <div id="conteudo">
             <h1>Mais limpeza, mais conforto, mais saúde dentro da sua casa!</h1>
@@ -51,6 +54,7 @@
             </a>
         </div>
     </section>
+
     <section id="visual">
         <img src=".midia/vacum.svg" alt="">
         <h1>Higienização Profissional</h1>
@@ -92,26 +96,32 @@
         </div>
         <img src=".midia/logopt.png" alt="">
     </section>
-    <section id="proxima">
-        <div id="faixa">
-            <div class="avaliacao fist">
-                <img src=".midia/aperto.svg" alt="">
-                <p> +100.000 Serviços Realizados</p>
-            </div>
-            <div class="avaliacao">
-                <img src=".midia/like.svg" alt="">
-                <p> +100.000 Clientes Satisfeitos</p>
-            </div>
+
+    <div id="faixa">
+        <div class="avaliacao fist">
+            <img src=".midia/aperto.svg" alt="">
+            <p> +100.000 Serviços Realizados</p>
         </div>
+        <div class="avaliacao">
+            <img src=".midia/like.svg" alt="">
+            <p> +100.000 Clientes Satisfeitos</p>
+        </div>
+    </div>
+
+    <section id="slider">
         <div id="feed" class="">
-            <div id="formato-antdps">
-                <img src=".midia/arrowleft.svg" alt="">
-                <div id="antdps">
+            <input type="radio" name="btn-radio" id="radio1">
+            <input type="radio" name="btn-radio" id="radio2">
+            <input type="radio" name="btn-radio" id="radio3">
+            <input type="radio" name="btn-radio" id="radio4">
+
+            <div class="formato-antdps primeiro">
+                <div class="antdps">
                     <img src=".midia/SofaSujo.png" alt="">
                     <img src=".midia/arrow.svg" alt="">
                     <img src=".midia/SofaSujo.png" alt="">
                 </div>
-                <div id="descricao">
+                <div class="descricao">
                     <h1>Higienização de Sofás</h1>
                     <p>
                         ✓ Elimina ácaros, fungos e bactérias.
@@ -125,14 +135,189 @@
                         ✓ Deixa o sofá com aparência renovada.
                     </p>
                 </div>
-                <img src=".midia/arrowrigth.svg" alt="">
             </div>
-            
+            <div class="formato-antdps">
+                <div class="antdps">
+                    <img src=".midia/SofaSujo.png" alt="">
+                    <img src=".midia/arrow.svg" alt="">
+                    <img src=".midia/SofaSujo.png" alt="">
+                </div>
+                <div class="descricao">
+                    <h1>Higienização de Tapetes</h1>
+                    <p>
+                        ✓ Elimina ácaros, fungos e bactérias.
+                        <br><br>
+                        ✓ Remove manchas e odores indesejáveis.
+                        <br><br>
+                        ✓ Reduz riscos de alergias e problemas respiratórios.
+                        <br><br>
+                        ✓ Prolonga a vida útil do estofado.
+                        <br><br>
+                        ✓ Deixa o sofá com aparência renovada.
+                    </p>
+                </div>
+            </div>
+            <div class="formato-antdps">
+                <div class="antdps">
+                    <img src=".midia/SofaSujo.png" alt="">
+                    <img src=".midia/arrow.svg" alt="">
+                    <img src=".midia/SofaSujo.png" alt="">
+                </div>
+                <div class="descricao">
+                    <h1>Higienização de Sofás</h1>
+                    <p>
+                        ✓ Elimina ácaros, fungos e bactérias.
+                        <br><br>
+                        ✓ Remove manchas e odores indesejáveis.
+                        <br><br>
+                        ✓ Reduz riscos de alergias e problemas respiratórios.
+                        <br><br>
+                        ✓ Prolonga a vida útil do estofado.
+                        <br><br>
+                        ✓ Deixa o sofá com aparência renovada.
+                    </p>
+                </div>
+            </div>
+            <div class="formato-antdps">
+                <div class="antdps">
+                    <img src=".midia/SofaSujo.png" alt="">
+                    <img src=".midia/arrow.svg" alt="">
+                    <img src=".midia/SofaSujo.png" alt="">
+                </div>
+                <div class="descricao">
+                    <h1>Higienização de Sofás</h1>
+                    <p>
+                        ✓ Elimina ácaros, fungos e bactérias.
+                        <br><br>
+                        ✓ Remove manchas e odores indesejáveis.
+                        <br><br>
+                        ✓ Reduz riscos de alergias e problemas respiratórios.
+                        <br><br>
+                        ✓ Prolonga a vida útil do estofado.
+                        <br><br>
+                        ✓ Deixa o sofá com aparência renovada.
+                    </p>
+                </div>
+            </div>
+
+            <div class="nav-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+
+            <div class="nav-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+            </div>
         </div>
     </section>
-    <video width="640" height="360" controls autoplay>
-        <source src=".midia/hipermeabilização.mp4" >
-    </video>
+
+    <section id="maps">
+        <div id="faixa2">
+            <h1><img src=".midia/point.svg" alt="">Atendemos todo Distrito Federal e Entorno !</h1>
+        </div>
+        <div id="img-maps">
+            <div id="text">
+                <img src=".midia/logo.png" alt="" id="logo">
+                <h1>A solução que você precisava!</h1>
+                <p>
+                    ✓ Mais Limpeza.
+                    <br>
+                    ✓ Mais Conforto.
+                    <br>
+                    ✓ Mais Saúde.
+                </p>
+                <p>Não perca tempo e solicite seu orçamento agora mesmo!</p>
+                <a href="#"><img src=".midia/whatsapp-svgrw.svg" alt="">Solicitar</a>
+            </div>
+            <img src=".midia/maps.png" alt="" class="maps">
+        </div>
+    </section>
+
+    <section id="comentarios">
+        <img src=".midia/fivestar.svg" alt="" class="star">
+        <h1 id="title-ava">Avaliações:</h1>
+        <div id="avalia-box">
+            <div class="perfil-box">
+                <div class="cima">
+                    <div class="perfil">
+                        <img src=".midia/perfil1.png" alt="" id="fotopf">
+                        <div class="stars">
+                            <h1>Daniel Luis</h1>
+                            <img src=".midia/fivestars.svg" alt="">
+                        </div>
+                    </div>
+                    <img src=".midia/google.svg" alt="">
+                </div>
+                <div class="baixo">
+                    <p>
+                        "Excelente serviço, pontual, limpo e organizado. O Evandro é pró-ativo e super parceiro, não mede
+                        esforços para nos deixar satisfeitos. Nota 1.000!"
+                    </p>
+                </div>
+            </div>
+            <div class="perfil-box">
+                <div class="cima">
+                    <div class="perfil">
+                        <img src=".midia/perfil1.png" alt="" id="fotopf">
+                        <div class="stars">
+                            <h1>Daniel Luis</h1>
+                            <img src=".midia/fivestars.svg" alt="">
+                        </div>
+                    </div>
+                    <img src=".midia/google.svg" alt="">
+                </div>
+                <div class="baixo">
+                    <p>
+                        "Excelente serviço, pontual, limpo e organizado. O Evandro é pró-ativo e super parceiro, não mede
+                        esforços para nos deixar satisfeitos. Nota 1.000!"
+                    </p>
+                </div>
+            </div>
+            <div class="perfil-box">
+                <div class="cima">
+                    <div class="perfil">
+                        <img src=".midia/perfil1.png" alt="" id="fotopf">
+                        <div class="stars">
+                            <h1>Daniel Luis</h1>
+                            <img src=".midia/fivestars.svg" alt="">
+                        </div>
+                    </div>
+                    <img src=".midia/google.svg" alt="">
+                </div>
+                <div class="baixo">
+                    <p>
+                        "Excelente serviço, pontual, limpo e organizado. O Evandro é pró-ativo e super parceiro, não mede
+                        esforços para nos deixar satisfeitos. Nota 1.000!"
+                    </p>
+                </div>
+            </div>
+            <div class="perfil-box">
+                <div class="cima">
+                    <div class="perfil">
+                        <img src=".midia/perfil1.png" alt="" id="fotopf">
+                        <div class="stars">
+                            <h1>Daniel Luis</h1>
+                            <img src=".midia/fivestars.svg" alt="">
+                        </div>
+                    </div>
+                    <img src=".midia/google.svg" alt="">
+                </div>
+                <div class="baixo">
+                    <p>
+                        "Excelente serviço, pontual, limpo e organizado. O Evandro é pró-ativo e super parceiro, não mede
+                        esforços para nos deixar satisfeitos. Nota 1.000!"
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        <img src=".midia/logopt.png" alt="" id="logopt">
+    </section>
 
 </body>
 
