@@ -1,14 +1,14 @@
-footer{
+footer {
     width: 100%;
     height: 30em;
-    background-color:#12426d;
+    background-color: #12426d;
 
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-.contato{
+.contato {
 
     h1 {
         font-size: 3em;
@@ -30,7 +30,26 @@ footer{
 }
 
 
-.icons{
+.icons {
     display: flex;
     gap: 2em;
+}
+
+@media screen and (max-width:500px) {
+    footer {
+        width: 100%;
+        height: 30em;
+        background-color: #12426d;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 4em;
+    }
+
+    #logofooter {
+        width: 10em;
+        opacity: .4;
+    }
 }
