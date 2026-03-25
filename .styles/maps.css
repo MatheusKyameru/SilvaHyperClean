@@ -58,9 +58,13 @@
     flex-direction: column;
     font-family: var(--font-visual);
     gap: 2em;
-    background-color: rgba(0, 0, 0, 0.308);
+    background-color: #114572;
     padding: 3em 1em;
     border-radius: 50px;
+
+    #logo{
+        width: 10em;
+    }
 
     h1 {
         font-size: 3em;
@@ -92,7 +96,7 @@
         box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.363);
 
         img {
-            width: 1.7em;
+            width: 2em;
         }
 
 
