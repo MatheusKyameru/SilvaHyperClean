@@ -47,10 +47,7 @@
 
     }
 
-    &:hover {
-        transform: rotate(10deg);
-        transition: .5s;
-    }
+   
 }
 
 #fotopf {
